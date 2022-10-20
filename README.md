@@ -15,8 +15,8 @@
 
 * Clase Abstracta con elementos comunes
 * Ahora verificará que el DNI no existe antes de solicitar datos del contrato.
-* Esta versión a diferencia del T3 localizará el contrato a través del ID del cliente que generará un propio cliente, por tanto obtendra el contrato pasandole un objeto, una manera distinta de hacerlo (en la T3 se obtendra pasando un Integer).
-* Por medio te .toString() al objeto Contract obtendremos el contrato + clientes si pulsamos la opción 10, en el T3 se realizará una consulta join.
+* Esta versión a diferencia del T3 el método "findByIdClient" en la clase contractDaoImpl que dará como resultado una lista de objetos Contract resultado de pasar el objeto cliente generado a través de una petición de ID del mismo, en la versión T3 se pasaba directamente el integer para realizar una consulta join.
+* Por medio te .toString() al objeto Contract obtendremos el contrato + clientes y contratos sin clientes que se podrán asignar a clientes ya creados.
 
 <h3><i>Ejercicio propuesto:</i></h3>
 
