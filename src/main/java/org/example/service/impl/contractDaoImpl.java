@@ -85,7 +85,10 @@ public class contractDaoImpl implements contractDao {
 		}
 	}
 
-	//REVISAR 
+	/**
+	 * EL OBJETO LO OBTENEMOS DE PEDIR UN ID DEL MISMO, PASAMOS EL OBJETO COMO PARÁMETRO Y NOS DEVUELVE
+	 * EL CONTRATO QUE TENGA UN CLIENTE IGUAL AL QUE SE PASA.
+	 */
 	@Override
 	public List<Contract> findByIdClient(Client client) {
 		

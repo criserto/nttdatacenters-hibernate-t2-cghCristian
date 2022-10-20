@@ -34,6 +34,7 @@ public class Constants {
 	public static final String SC_APELLIDO1_CLIENTE = "Introduce el primer apellido del cliente:";
 	public static final String SC_APELLIDO2_CLIENTE = "Introduce el segundo apellido del cliente:";
 	public static final String SC_DNI_CLIENTE = "Introduce el DNI del cliente:";
+	public static final String SC_DNI_REPETIDO = "\nIntroduciste un DNI repetido\n";
 	public static final String SC_DESPEDIDA = "Adios";
 	
 	
